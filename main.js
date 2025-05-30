@@ -7,6 +7,7 @@ const numberTwo = Number(prompt("numero 2"));
 
 if (numberOne > numberTwo) {
   console.log(numberOne);
-} else {
+} else if (numberTwo < numberOne) {
   console.log(numberTwo);
-}
+} else numberOne == numberTwo;
+alert("inserire due numeri diversi!");
