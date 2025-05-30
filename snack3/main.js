@@ -10,3 +10,5 @@
 for (let ask = prompt("inserire un numero"); ask <= 10; ask++) {
   console.log(ask);
 }
+
+// devo far uscire 10 volte la casella per chiedere
