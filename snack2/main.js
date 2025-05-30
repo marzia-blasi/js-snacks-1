@@ -8,7 +8,10 @@ const parolaDue = prompt("inserire parola");
 // console.log(parolaUno + parolaDue);
 
 if (parolaUno.length > parolaDue.length) {
-  console.log(parolaUno + parolaDue);
 } else if (parolaUno.length < parolaDue.length) {
   console.log(parolaDue + parolaUno);
+} else if (parolaDue == parolaUno) {
+  alert("valori non validi");
+} else {
+  console.log(parolaUno + parolaDue);
 }
