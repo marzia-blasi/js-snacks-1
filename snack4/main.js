@@ -5,5 +5,8 @@ let list = [];
 let number = 6;
 
 for (i = number; i >= 1; i--) {
-  let ask = Number(prompt("inserire numero"));
+  Number(prompt("inserire numero"));
+}
+if (number % 2 == 1) {
+  console.log(ask);
 }
