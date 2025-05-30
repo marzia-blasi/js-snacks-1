@@ -7,6 +7,8 @@ let number = 6;
 for (i = number; i >= 1; i--) {
   Number(prompt("inserire numero"));
 }
-if (number % 2 == 1) {
-  console.log(ask);
+if (i % 2 == 1) {
+  console.log(i);
 }
+
+// dovrebbe poi essere if ("benedetto valore" % 2 == 1 ){.push}
