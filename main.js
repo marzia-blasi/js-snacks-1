@@ -9,5 +9,5 @@ if (numberOne > numberTwo) {
   console.log(numberOne);
 } else if (numberTwo < numberOne) {
   console.log(numberTwo);
-} else numberOne == numberTwo;
+} else (numberOne == numberTwo;
 alert("inserire due numeri diversi!");
