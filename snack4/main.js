@@ -6,9 +6,10 @@ let number = 6;
 
 for (i = number; i >= 1; i--) {
   Number(prompt("inserire numero"));
+  console.log(i); // non mi stampa i numeri che inserisco, quindi chiaramente non va bene
 }
 if (i % 2 == 1) {
-  console.log(i);
+  let i = console.log(list.push);
 }
 
 // dovrebbe poi essere if ("benedetto valore" % 2 == 1 ){.push}
